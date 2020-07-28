@@ -21,3 +21,5 @@
 
     </header>
     <div class="container">
+    
+    <a href="<?=base_url?>controller/insertar" class="button">Insertar</a>

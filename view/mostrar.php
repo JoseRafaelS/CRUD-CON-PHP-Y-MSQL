@@ -7,7 +7,6 @@
                     <th>NOMBRE</th>
                     <th>APELLIDO</th>
                     <th>EMAIL</th>
-                    <th>INSERTAR</th>
                     <th>EDITAR</th>
                     <th>ELIMINAR</th>
                 </tr>
@@ -17,7 +16,6 @@
                         <td><?=$datos->nombre?></td>
                         <td><?=$datos->apellido?></td>
                         <td><?=$datos->email?></td>
-                        <td><a href="<?=base_url?>controller/insertar"><i class="icon fas fa-user-plus"></i></a></td>
                         <td><a href="<?=base_url?>controller/editar&id=<?=$datos->id?>"><i class="icon fas fa-user-edit"></i></a></td>
                         <td><a href="<?=base_url?>controller/eliminar&id=<?=$datos->id?>"><i class="icon fas fa-trash"></i></a></td>
                     </tr>
