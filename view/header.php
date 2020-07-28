@@ -22,4 +22,5 @@
     </header>
     <div class="container">
     
+    <!-- boton  para crear usuario  -->
     <a href="<?=base_url?>controller/insertar" class="button">Insertar</a>
